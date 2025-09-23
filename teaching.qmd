@@ -1,12 +1,15 @@
 ---
 title: "Teaching"
+format: 
+  html:
+    fontsize: 1.0em
+    self-contained: true
 ---
 
 ### Biostatistics 699
 
-[Biostatistics 699](https://sph.umich.edu/research-education/courses/course.php?courseID=BIOSTAT699) is my department's project-based capstone for MS students. I've co-taught this course with various colleagues since 2019. 
+[Biostatistics 699](https://sph.umich.edu/research-education/courses/course.php?courseID=BIOSTAT699) is my department's project-based capstone for MS students. I've co-taught this course with various colleagues since 2019.
 
 ### Public Health 345
 
 I recently developed and taught [Public Health 345: Public Health Data Visualization](https://sph.umich.edu/research-education/courses/course.php?courseID=PUBHLTH345) for undergraduate students interested in public health. You can find my course slides [here](https://psboonstra.github.io/PH345_W2025/)
-
