@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Philip S. Boonstra"
@@ -11,16 +12,14 @@ website:
         text: Teaching
       - href: files/BoonstraCV.pdf
         text: CV
-      - href: https://github.com/psboonstra
-        text: GitHub
       - href: https://scholar.google.com/citations?user=GiaDuZwAAAAJ&hl=en
         text: Google Scholar
-
+      - href: https://github.com/psboonstra
+        icon: github
+      
 format:
   html:
     theme: sandstone
     css: styles.css
     toc: true
-
-editor: visual
 

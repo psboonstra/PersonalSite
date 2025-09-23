@@ -3,7 +3,6 @@ title: "Teaching"
 format: 
   html:
     fontsize: 1.0em
-    self-contained: true
 ---
 
 ### Biostatistics 699

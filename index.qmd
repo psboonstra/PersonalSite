@@ -3,7 +3,6 @@ title: ""
 format: 
   html:
     fontsize: 1.0em
-    self-contained: true
 ---
 
 ::::: columns
