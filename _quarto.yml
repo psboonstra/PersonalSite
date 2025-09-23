@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "Philip S. Boonstra"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: teaching.qmd
+        text: Teaching
+      - href: files/BoonstraCV.pdf
+        text: CV
+      - href: https://github.com/psboonstra
+        text: GitHub
+      - href: https://scholar.google.com/citations?user=GiaDuZwAAAAJ&hl=en
+        text: Google Scholar
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+
+editor: visual
+
