@@ -2,7 +2,7 @@
 title: ""
 format: 
   html:
-    fontsize: 0.9em
+    fontsize: 0.8em
 ---
 
 ::::: columns
@@ -23,3 +23,5 @@ I also love teaching and working with students. You can see courses that I've ta
 If you're new to biostatistics or public health and want to learn more, go check out my three-course specialization with colleague [Bhramar Mukherjee](https://ysph.yale.edu/profile/bhramar-mukherjee/) on Coursera: [Data Science for Health Research](https://www.coursera.org/specializations/data-science-for-health-research)
 :::
 :::::
+
+<div class="email">philb@<span>umich.</span><span>example.</span>edu</div>

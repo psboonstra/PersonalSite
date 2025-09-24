@@ -2,7 +2,7 @@
 title: "Teaching"
 format: 
   html:
-    fontsize: 0.9em
+    fontsize: 0.8em
 ---
 
 ### Biostatistics 699

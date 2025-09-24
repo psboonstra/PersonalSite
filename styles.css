@@ -1,1 +1,5 @@
 /* css styles */
+
+div.email > span:nth-child(2) {
+	display: none;
+}

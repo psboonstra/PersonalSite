@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Philip S. Boonstra"
+  search: false
   navbar:
     left:
       - href: index.qmd
@@ -13,9 +14,11 @@ website:
       - href: files/BoonstraCV.pdf
         text: CV
       - href: https://scholar.google.com/citations?user=GiaDuZwAAAAJ&hl=en
-        text: Google Scholar
+        icon: mortarboard-fill
       - href: https://github.com/psboonstra
         icon: github
+      - href: https://www.linkedin.com/in/phil-boonstra-5b9b792a7/
+        icon: linkedin
       
 format:
   html:
