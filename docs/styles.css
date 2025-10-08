@@ -5,17 +5,18 @@ div.email > span:nth-child(2) {
 
 /* ===== GENERAL PAGE LAYOUT ===== */
 main.content {
-  max-width: 1400px;  /* cap width on large screens */
+  max-width: 1600px;       /* wider on large screens */
   margin: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
   background-color: white;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  font-size: 1.25em;       /* base font size for readability */
+  line-height: 1.65;
 }
 
 body {
-  line-height: 1.6;
   background-color: #fdfdfd;
 }
 
@@ -24,9 +25,22 @@ body {
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-/* ===== COLUMNS (used on older pages) ===== */
+/* ===== COLUMNS ===== */
 .column {
   vertical-align: top;
+}
+
+/* Default column widths (desktop) */
+.quarto-layout-row > .column:first-child {
+  width: 30%;   /* image column */
+}
+
+.quarto-layout-row > .column:nth-child(2) {
+  width: 5%;    /* spacer */
+}
+
+.quarto-layout-row > .column:last-child {
+  width: 65%;   /* text column */
 }
 
 .quarto-layout-row {
@@ -36,12 +50,13 @@ body {
 .column img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 /* ===== LINKS ===== */
 a {
-  color: #0056b3; /* deep blue to match Sandstone palette */
+  color: #0056b3;
   text-decoration: none;
 }
 
@@ -49,11 +64,9 @@ a:hover {
   text-decoration: underline;
 }
 
-
-/* ===== RESPONSIVE TWEAKS ===== */
+/* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
 
-  /* Stack columns (for older column layouts) */
   .quarto-layout-row {
     flex-direction: column;
   }
@@ -67,5 +80,4 @@ a:hover {
     margin: 0 auto 1rem auto;
     max-width: 70%;
   }
-
 }
