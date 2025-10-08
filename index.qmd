@@ -21,7 +21,9 @@ Some of my current research interests are in methods for combining or integratin
 I also love teaching and working with students. You can see courses that I've taught on my [teaching page](teaching.qmd). If you're a prospective student, I'd be delighted to speak with you, but please know that I cannot admit students directly. You need to apply through our department's [admission process](https://sph.umich.edu/biostat/biostatistics-prospective-students.html).
 
 If you're new to biostatistics or public health and want to learn more, go check out my three-course specialization with colleague [Bhramar Mukherjee](https://ysph.yale.edu/profile/bhramar-mukherjee/) on Coursera: [Data Science for Health Research](https://www.coursera.org/specializations/data-science-for-health-research)
+
+You can contact me at <div class="email">philb@<span>umich.</span><span>example.</span>edu</div>
 :::
 :::::
 
-<div class="email">philb@<span>umich.</span><span>example.</span>edu</div>
+
