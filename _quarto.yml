@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Philip S. Boonstra"
+  title: "Philip S. Boonstra, PhD"
   search: false
   navbar:
     left:
@@ -13,6 +13,7 @@ website:
         text: Teaching
       - href: files/BoonstraCV.pdf
         text: CV
+    right:
       - href: https://scholar.google.com/citations?user=GiaDuZwAAAAJ&hl=en
         icon: mortarboard-fill
       - href: https://github.com/psboonstra
@@ -25,4 +26,5 @@ format:
     theme: sandstone
     css: styles.css
     toc: false
-
+    navbar:
+      background: light

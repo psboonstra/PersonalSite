@@ -12,11 +12,15 @@ main.content {
   margin: auto;
   padding-left: 2rem;
   padding-right: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 /* Give the whole page a little more vertical breathing room */
 body {
   line-height: 1.6;
+  background-color: #fdfdfd;
 }
 
 /* ===== COLUMNS ON HOME PAGE ===== */
@@ -75,3 +79,28 @@ a:hover {
     margin-bottom: 1.5rem;
   }
 }
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* ===== HOMEPAGE INTRO LAYOUT ===== */
+.home-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.home-intro img {
+  max-width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.home-intro p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
