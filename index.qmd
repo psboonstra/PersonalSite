@@ -6,24 +6,25 @@ format:
     page-layout: full
 ---
 
+::::: columns
+::: {.column width="25%"}
+![](images/Phil%20Boonstra-2-lowres_small.jpeg){width="454"}
+:::
 
-<div class="home-intro">
+::: {.column width="5%"}
+:::
 
-![](images/Phil%20Boonstra-2-lowres_small.jpeg){width="280"}
-
-<div>
-
+::: {.column width="70%"}
 I'm an Associate Professor in the [Department of Biostatistics](https://sph.umich.edu/biostat/) at the [University of Michigan](https://umich.edu/). I've been a faculty member here since 2013. I have my MS and PhD in Biostatistics, also from UM. I previously studied Mathematics and Political Science at [Calvin College](https://calvin.edu/) (now University) in Grand Rapids, MI.
 
 Some of my current research interests are in methods for combining or integrating statistical models, penalized likelihood, and applications in the areas of cancer clinical trials and Extracorporeal Membrane Oxygenation (ECMO).
 
-I also love teaching and working with students. You can see courses that I've taught on my [teaching page](teaching.qmd). If you're a prospective student, I'd be delighted to speak with you, but please know that I cannot admit students directly. You need to apply through our department's [admission process](https://www.sph.umich.edu/biostat/biostatistics-prospective-students.html).
+I also love teaching and working with students. You can see courses that I've taught on my [teaching page](teaching.qmd). If you're a prospective student, I'd be delighted to speak with you, but please know that I cannot admit students directly. You need to apply through our department's [admission process](https://sph.umich.edu/biostat/biostatistics-prospective-students.html).
 
 If you're new to biostatistics or public health and want to learn more, go check out my three-course specialization with colleague [Bhramar Mukherjee](https://ysph.yale.edu/profile/bhramar-mukherjee/) on Coursera: [Data Science for Health Research](https://www.coursera.org/specializations/data-science-for-health-research)
 
 You can contact me at <div class="email">philb@<span>umich.</span><span>example.</span>edu</div>
-
-</div>
-</div>
+:::
+:::::
 
 

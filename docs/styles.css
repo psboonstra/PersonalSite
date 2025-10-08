@@ -1,14 +1,11 @@
-/* css styles */
-
+/* ===== EMAIL OBFUSCATION ===== */
 div.email > span:nth-child(2) {
-	display: none;
+  display: none;
 }
 
 /* ===== GENERAL PAGE LAYOUT ===== */
-
-/* Expand usable horizontal space (but keep it readable) */
 main.content {
-  max-width: 1400px;  /* caps width on large screens */
+  max-width: 1400px;  /* cap width on large screens */
   margin: auto;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -17,34 +14,34 @@ main.content {
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-/* Give the whole page a little more vertical breathing room */
 body {
   line-height: 1.6;
   background-color: #fdfdfd;
 }
 
-/* ===== COLUMNS ON HOME PAGE ===== */
+/* ===== NAVBAR ===== */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
 
-/* Make columns align neatly at the top */
+/* ===== COLUMNS (used on older pages) ===== */
 .column {
   vertical-align: top;
 }
 
-/* Add a bit more spacing between columns */
 .quarto-layout-row {
   gap: 2rem;
 }
 
-/* Keep images nicely scaled and responsive */
 .column img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px; /* optional: soft rounded corners */
+  border-radius: 8px;
 }
 
 /* ===== LINKS ===== */
 a {
-  color: #0056b3; /* deep blue to match Sandstone’s palette */
+  color: #0056b3; /* deep blue to match Sandstone palette */
   text-decoration: none;
 }
 
@@ -52,55 +49,23 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ===== RESPONSIVE TWEAKS FOR SMALLER SCREENS ===== */
 
-/* For screens narrower than 900px (roughly tablets and phones) */
+/* ===== RESPONSIVE TWEAKS ===== */
 @media (max-width: 900px) {
 
-  /* Stack columns vertically instead of side-by-side */
+  /* Stack columns (for older column layouts) */
   .quarto-layout-row {
     flex-direction: column;
   }
 
-  /* Make each column take full width */
   .column {
     width: 100% !important;
   }
 
-  /* Center the image and make it smaller */
   .column img {
     display: block;
     margin: 0 auto 1rem auto;
     max-width: 70%;
   }
 
-  /* Add spacing below each stacked column */
-  .quarto-layout-row > .column:not(:last-child) {
-    margin-bottom: 1.5rem;
-  }
 }
-
-.navbar {
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-/* ===== HOMEPAGE INTRO LAYOUT ===== */
-.home-intro {
-  display: flex;
-  align-items: flex-start;
-  gap: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-}
-
-.home-intro img {
-  max-width: 280px;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-}
-
-.home-intro p {
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
-
