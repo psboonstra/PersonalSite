@@ -3,6 +3,7 @@ title: ""
 format: 
   html:
     fontsize: 1.2em
+    page-layout: full
 ---
 
 ::::: columns
