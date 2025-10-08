@@ -2,7 +2,8 @@
 title: "Teaching"
 format: 
   html:
-    fontsize: 0.8em
+    fontsize: 1.25em
+    page-layout: full
     toc: false
 ---
 

@@ -3,3 +3,47 @@
 div.email > span:nth-child(2) {
 	display: none;
 }
+
+/* ===== GENERAL PAGE LAYOUT ===== */
+
+/* Expand usable horizontal space (but keep it readable) */
+main.content {
+  max-width: 1400px;  /* caps width on large screens */
+  margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Give the whole page a little more vertical breathing room */
+body {
+  line-height: 1.6;
+}
+
+/* ===== COLUMNS ON HOME PAGE ===== */
+
+/* Make columns align neatly at the top */
+.column {
+  vertical-align: top;
+}
+
+/* Add a bit more spacing between columns */
+.quarto-layout-row {
+  gap: 2rem;
+}
+
+/* Keep images nicely scaled and responsive */
+.column img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* optional: soft rounded corners */
+}
+
+/* ===== LINKS ===== */
+a {
+  color: #0056b3; /* deep blue to match Sandstone’s palette */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
