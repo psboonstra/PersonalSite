@@ -2,7 +2,7 @@
 title: ""
 format: 
   html:
-    fontsize: 0.8em
+    fontsize: 1.2em
 ---
 
 ::::: columns
