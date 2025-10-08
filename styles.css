@@ -47,3 +47,31 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* ===== RESPONSIVE TWEAKS FOR SMALLER SCREENS ===== */
+
+/* For screens narrower than 900px (roughly tablets and phones) */
+@media (max-width: 900px) {
+
+  /* Stack columns vertically instead of side-by-side */
+  .quarto-layout-row {
+    flex-direction: column;
+  }
+
+  /* Make each column take full width */
+  .column {
+    width: 100% !important;
+  }
+
+  /* Center the image and make it smaller */
+  .column img {
+    display: block;
+    margin: 0 auto 1rem auto;
+    max-width: 70%;
+  }
+
+  /* Add spacing below each stacked column */
+  .quarto-layout-row > .column:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+}
