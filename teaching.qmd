@@ -7,10 +7,28 @@ format:
     toc: false
 ---
 
+## Current classes
+
 ### Biostatistics 699
 
-[Biostatistics 699](https://sph.umich.edu/research-education/courses/course.php?courseID=BIOSTAT699) is my department's project-based capstone for MS students. I've co-taught this course with various colleagues since 2019.
+[Biostatistics 699](https://sph.umich.edu/research-education/courses/course.php?courseID=BIOSTAT699) is my department's project-based capstone for MS students. I've co-taught this course with various colleagues every winter since 2019.
 
 ### Public Health 345
 
-I recently developed and taught [Public Health 345: Public Health Data Visualization](https://sph.umich.edu/research-education/courses/course.php?courseID=PUBHLTH345) for undergraduate students interested in public health. You can find my course slides [here](https://psboonstra.github.io/PH345_W2025/)
+I recently developed and taught [Public Health 345: Public Health Data Visualization](https://sph.umich.edu/research-education/courses/course.php?courseID=PUBHLTH345) for undergraduate students interested in public health. You can find my course slides [here](https://psboonstra.github.io/PH345_W2026/)
+
+## Past classes
+
+### Biostatistics 619
+[Biostatistics 619](https://sph.umich.edu/research-education/courses/course.php?courseID=BIOSTAT619) is a course on the design and analysis of clinical trials. I taught this 
+for four years, most recently in winter 2018, when I expanded the course from two
+to three credits. 
+
+### Biostatistics 591
+I developed Biostatistics 591 as an introduction to the R statistical environment
+for students enrolled in the fully online MS in Population Health Sciences degree program at UM SPH. That program is now closed, so I no longer teach this course; however, 
+if you're interested in learning more about R please see my MOOC hosted on Coursera:
+[Data Science for Health Research](https://www.coursera.org/specializations/data-science-for-health-research)
+
+
+
