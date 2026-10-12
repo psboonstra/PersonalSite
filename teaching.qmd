@@ -1,5 +1,6 @@
 ---
 title: "Teaching"
+description: "Courses taught by Philip S. Boonstra in the Department of Biostatistics at the University of Michigan."
 format: 
   html:
     fontsize: 1.2em
@@ -15,7 +16,7 @@ format:
 
 ### Public Health 345
 
-I recently developed and taught [Public Health 345: Public Health Data Visualization](https://sph.umich.edu/research-education/courses/course.php?courseID=PUBHLTH345) for undergraduate students interested in public health. You can find my course slides [here](https://psboonstra.github.io/PH345_W2026/)
+I recently developed and taught [Public Health 345: Public Health Data Visualization](https://sph.umich.edu/research-education/courses/course.php?courseID=PUBHLTH345) for undergraduate students interested in public health. My course slides are on the [PH345 course site](https://psboonstra.github.io/PH345_W2026/).
 
 ## Past classes
 

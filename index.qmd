@@ -1,5 +1,7 @@
 ---
 title: ""
+pagetitle: "Philip S. Boonstra, PhD"
+description: "Associate Professor of Biostatistics at the University of Michigan."
 format: 
   html:
     fontsize: 1.2em
@@ -8,7 +10,7 @@ format:
 
 ::::: columns
 ::: {.column width="25%"}
-![](images/Phil%20Boonstra-2-lowres_small.jpeg){width="454"}
+![](images/boonstra-headshot.jpg){fig-alt="Headshot of Philip Boonstra"}
 :::
 
 ::: {.column width="5%"}
@@ -23,7 +25,7 @@ I also love teaching and working with students. You can see courses that I've ta
 
 If you're new to biostatistics or public health and want to learn more, go check out my three-course specialization with colleague [Bhramar Mukherjee](https://ysph.yale.edu/profile/bhramar-mukherjee/) on Coursera: [Data Science for Health Research](https://www.coursera.org/specializations/data-science-for-health-research)
 
-You can contact me at <div class="email">philb@<span>umich.</span><span>example.</span>edu</div>
+You can contact me at <span class="email">philb@<span>umich.</span><span>example.</span>edu</span>
 :::
 :::::
 

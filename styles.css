@@ -1,23 +1,29 @@
 /* ===== EMAIL OBFUSCATION ===== */
-div.email > span:nth-child(2) {
+/* hides the decoy "example." span so the address reads philb@umich.edu */
+.email > span:nth-child(2) {
   display: none;
 }
 
 /* ===== GENERAL PAGE LAYOUT ===== */
+/* base font size is set once, via `fontsize` in each page's YAML */
 main.content {
-  max-width: 1600px;       /* wider on large screens */
-  margin: auto;
+  max-width: 1600px;
+  margin: 0 auto;   /* not `auto`: that vertically centers short pages */
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   background-color: white;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  font-size: 1.25em;       /* base font size for readability */
   line-height: 1.65;
 }
 
 body {
   background-color: #fdfdfd;
+}
+
+/* page descriptions are for search results and link previews, not on-page display */
+.quarto-title-block .description {
+  display: none;
 }
 
 /* ===== NAVBAR ===== */
@@ -26,27 +32,7 @@ body {
 }
 
 /* ===== COLUMNS ===== */
-.column {
-  vertical-align: top;
-}
-
-/* Default column widths (desktop) */
-.quarto-layout-row > .column:first-child {
-  width: 30%;   /* image column */
-}
-
-.quarto-layout-row > .column:nth-child(2) {
-  width: 5%;    /* spacer */
-}
-
-.quarto-layout-row > .column:last-child {
-  width: 65%;   /* text column */
-}
-
-.quarto-layout-row {
-  gap: 2rem;
-}
-
+/* column widths are set in index.qmd (::: {.column width=...}) */
 .column img {
   max-width: 100%;
   height: auto;
@@ -66,11 +52,6 @@ a:hover {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
-
-  .quarto-layout-row {
-    flex-direction: column;
-  }
-
   .column {
     width: 100% !important;
   }
@@ -78,6 +59,13 @@ a:hover {
   .column img {
     display: block;
     margin: 0 auto 1rem auto;
-    max-width: 70%;
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  main.content {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

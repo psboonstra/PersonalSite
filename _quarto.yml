@@ -1,9 +1,19 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - teaching.qmd
+  resources:
+    - files/BoonstraCV.pdf
 
 website:
   title: "Philip S. Boonstra, PhD"
+  site-url: https://psboonstra.github.io/
+  image: images/boonstra-headshot.jpg
+  open-graph: true
+  twitter-card:
+    card-style: summary
   search: false
   navbar:
     left:
@@ -16,15 +26,16 @@ website:
     right:
       - href: https://scholar.google.com/citations?user=GiaDuZwAAAAJ&hl=en
         icon: mortarboard-fill
+        aria-label: Google Scholar
       - href: https://github.com/psboonstra
         icon: github
+        aria-label: GitHub
       - href: https://www.linkedin.com/in/phil-boonstra-5b9b792a7/
         icon: linkedin
+        aria-label: LinkedIn
       
 format:
   html:
     theme: sandstone
     css: styles.css
     toc: false
-    navbar:
-      background: light
